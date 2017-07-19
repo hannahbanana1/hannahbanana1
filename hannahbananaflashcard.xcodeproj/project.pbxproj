@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947341541F1FC79F00DD403B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947341531F1FC79F00DD403B /* AppDelegate.swift */; };
+		947341561F1FC79F00DD403B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947341551F1FC79F00DD403B /* ViewController.swift */; };
+		947341591F1FC79F00DD403B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947341571F1FC79F00DD403B /* Main.storyboard */; };
+		9473415B1F1FC79F00DD403B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9473415A1F1FC79F00DD403B /* Assets.xcassets */; };
+		9473415E1F1FC79F00DD403B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9473415C1F1FC79F00DD403B /* LaunchScreen.storyboard */; };
+		947341691F1FC79F00DD403B /* hannahbananaflashcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947341681F1FC79F00DD403B /* hannahbananaflashcardTests.swift */; };
+		947341741F1FC79F00DD403B /* hannahbananaflashcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947341731F1FC79F00DD403B /* hannahbananaflashcardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947341651F1FC79F00DD403B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947341481F1FC79F00DD403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9473414F1F1FC79F00DD403B;
+			remoteInfo = hannahbananaflashcard;
+		};
+		947341701F1FC79F00DD403B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947341481F1FC79F00DD403B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9473414F1F1FC79F00DD403B;
+			remoteInfo = hannahbananaflashcard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		947341501F1FC79F00DD403B /* hannahbananaflashcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hannahbananaflashcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947341531F1FC79F00DD403B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		947341551F1FC79F00DD403B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947341581F1FC79F00DD403B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9473415A1F1FC79F00DD403B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9473415D1F1FC79F00DD403B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9473415F1F1FC79F00DD403B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947341641F1FC79F00DD403B /* hannahbananaflashcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hannahbananaflashcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947341681F1FC79F00DD403B /* hannahbananaflashcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hannahbananaflashcardTests.swift; sourceTree = "<group>"; };
+		9473416A1F1FC79F00DD403B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9473416F1F1FC79F00DD403B /* hannahbananaflashcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hannahbananaflashcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947341731F1FC79F00DD403B /* hannahbananaflashcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hannahbananaflashcardUITests.swift; sourceTree = "<group>"; };
+		947341751F1FC79F00DD403B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9473414D1F1FC79F00DD403B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947341611F1FC79F00DD403B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9473416C1F1FC79F00DD403B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947341471F1FC79F00DD403B = {
+			isa = PBXGroup;
+			children = (
+				947341521F1FC79F00DD403B /* hannahbananaflashcard */,
+				947341671F1FC79F00DD403B /* hannahbananaflashcardTests */,
+				947341721F1FC79F00DD403B /* hannahbananaflashcardUITests */,
+				947341511F1FC79F00DD403B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947341511F1FC79F00DD403B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947341501F1FC79F00DD403B /* hannahbananaflashcard.app */,
+				947341641F1FC79F00DD403B /* hannahbananaflashcardTests.xctest */,
+				9473416F1F1FC79F00DD403B /* hannahbananaflashcardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947341521F1FC79F00DD403B /* hannahbananaflashcard */ = {
+			isa = PBXGroup;
+			children = (
+				947341531F1FC79F00DD403B /* AppDelegate.swift */,
+				947341551F1FC79F00DD403B /* ViewController.swift */,
+				947341571F1FC79F00DD403B /* Main.storyboard */,
+				9473415A1F1FC79F00DD403B /* Assets.xcassets */,
+				9473415C1F1FC79F00DD403B /* LaunchScreen.storyboard */,
+				9473415F1F1FC79F00DD403B /* Info.plist */,
+			);
+			path = hannahbananaflashcard;
+			sourceTree = "<group>";
+		};
+		947341671F1FC79F00DD403B /* hannahbananaflashcardTests */ = {
+			isa = PBXGroup;
+			children = (
+				947341681F1FC79F00DD403B /* hannahbananaflashcardTests.swift */,
+				9473416A1F1FC79F00DD403B /* Info.plist */,
+			);
+			path = hannahbananaflashcardTests;
+			sourceTree = "<group>";
+		};
+		947341721F1FC79F00DD403B /* hannahbananaflashcardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				947341731F1FC79F00DD403B /* hannahbananaflashcardUITests.swift */,
+				947341751F1FC79F00DD403B /* Info.plist */,
+			);
+			path = hannahbananaflashcardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9473414F1F1FC79F00DD403B /* hannahbananaflashcard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947341781F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcard" */;
+			buildPhases = (
+				9473414C1F1FC79F00DD403B /* Sources */,
+				9473414D1F1FC79F00DD403B /* Frameworks */,
+				9473414E1F1FC79F00DD403B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hannahbananaflashcard;
+			productName = hannahbananaflashcard;
+			productReference = 947341501F1FC79F00DD403B /* hannahbananaflashcard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947341631F1FC79F00DD403B /* hannahbananaflashcardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9473417B1F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcardTests" */;
+			buildPhases = (
+				947341601F1FC79F00DD403B /* Sources */,
+				947341611F1FC79F00DD403B /* Frameworks */,
+				947341621F1FC79F00DD403B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947341661F1FC79F00DD403B /* PBXTargetDependency */,
+			);
+			name = hannahbananaflashcardTests;
+			productName = hannahbananaflashcardTests;
+			productReference = 947341641F1FC79F00DD403B /* hannahbananaflashcardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9473416E1F1FC79F00DD403B /* hannahbananaflashcardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9473417E1F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcardUITests" */;
+			buildPhases = (
+				9473416B1F1FC79F00DD403B /* Sources */,
+				9473416C1F1FC79F00DD403B /* Frameworks */,
+				9473416D1F1FC79F00DD403B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947341711F1FC79F00DD403B /* PBXTargetDependency */,
+			);
+			name = hannahbananaflashcardUITests;
+			productName = hannahbananaflashcardUITests;
+			productReference = 9473416F1F1FC79F00DD403B /* hannahbananaflashcardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947341481F1FC79F00DD403B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "iD Student";
+				TargetAttributes = {
+					9473414F1F1FC79F00DD403B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					947341631F1FC79F00DD403B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9473414F1F1FC79F00DD403B;
+					};
+					9473416E1F1FC79F00DD403B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9473414F1F1FC79F00DD403B;
+					};
+				};
+			};
+			buildConfigurationList = 9473414B1F1FC79F00DD403B /* Build configuration list for PBXProject "hannahbananaflashcard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947341471F1FC79F00DD403B;
+			productRefGroup = 947341511F1FC79F00DD403B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9473414F1F1FC79F00DD403B /* hannahbananaflashcard */,
+				947341631F1FC79F00DD403B /* hannahbananaflashcardTests */,
+				9473416E1F1FC79F00DD403B /* hannahbananaflashcardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9473414E1F1FC79F00DD403B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9473415E1F1FC79F00DD403B /* LaunchScreen.storyboard in Resources */,
+				9473415B1F1FC79F00DD403B /* Assets.xcassets in Resources */,
+				947341591F1FC79F00DD403B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947341621F1FC79F00DD403B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9473416D1F1FC79F00DD403B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9473414C1F1FC79F00DD403B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947341561F1FC79F00DD403B /* ViewController.swift in Sources */,
+				947341541F1FC79F00DD403B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947341601F1FC79F00DD403B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947341691F1FC79F00DD403B /* hannahbananaflashcardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9473416B1F1FC79F00DD403B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947341741F1FC79F00DD403B /* hannahbananaflashcardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947341661F1FC79F00DD403B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9473414F1F1FC79F00DD403B /* hannahbananaflashcard */;
+			targetProxy = 947341651F1FC79F00DD403B /* PBXContainerItemProxy */;
+		};
+		947341711F1FC79F00DD403B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9473414F1F1FC79F00DD403B /* hannahbananaflashcard */;
+			targetProxy = 947341701F1FC79F00DD403B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947341571F1FC79F00DD403B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947341581F1FC79F00DD403B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9473415C1F1FC79F00DD403B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9473415D1F1FC79F00DD403B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947341761F1FC79F00DD403B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		947341771F1FC79F00DD403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947341791F1FC79F00DD403B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hannahbananaflashcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9473417A1F1FC79F00DD403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hannahbananaflashcard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9473417C1F1FC79F00DD403B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hannahbananaflashcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hannahbananaflashcard.app/hannahbananaflashcard";
+			};
+			name = Debug;
+		};
+		9473417D1F1FC79F00DD403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hannahbananaflashcardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hannahbananaflashcard.app/hannahbananaflashcard";
+			};
+			name = Release;
+		};
+		9473417F1F1FC79F00DD403B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hannahbananaflashcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hannahbananaflashcard;
+			};
+			name = Debug;
+		};
+		947341801F1FC79F00DD403B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hannahbananaflashcardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.hannahbananaflashcardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hannahbananaflashcard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9473414B1F1FC79F00DD403B /* Build configuration list for PBXProject "hannahbananaflashcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947341761F1FC79F00DD403B /* Debug */,
+				947341771F1FC79F00DD403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947341781F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947341791F1FC79F00DD403B /* Debug */,
+				9473417A1F1FC79F00DD403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9473417B1F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9473417C1F1FC79F00DD403B /* Debug */,
+				9473417D1F1FC79F00DD403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9473417E1F1FC79F00DD403B /* Build configuration list for PBXNativeTarget "hannahbananaflashcardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9473417F1F1FC79F00DD403B /* Debug */,
+				947341801F1FC79F00DD403B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947341481F1FC79F00DD403B /* Project object */;
+}
